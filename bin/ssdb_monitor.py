@@ -9,7 +9,7 @@ import time
 from logging.config import logging
 from ssdb import SSDB
 
-from bin.ssdb_server import SSDBServer
+from ssdb_server import SSDBServer
 
 falcon_client = "http://127.0.0.1:1988/v1/push"
 upload_ts = int(time.time())
