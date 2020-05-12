@@ -1,0 +1,3 @@
+# ssdb monitor cron
+* * * * * root (cd /path/to/ssdbmon/bin/ && python ssdb_monitor.py > /dev/null)
+
